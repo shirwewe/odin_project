@@ -1,0 +1,67 @@
+/* this * means it is a universal selector */
+*{
+    color: purple;
+}
+/* div is en empty html container */
+div {
+    color: white;
+    background-color: black;
+}
+
+p{
+    color:red;
+}
+
+.alert_text{
+    color:red
+}
+
+/* we use hashtags for IDs in html */
+#title {
+    background-color: red;
+}
+
+.read {
+    color: white;
+    background-color: black;
+}
+
+.unread {
+    color: white;
+    background-color: black;
+}
+
+/* note here that read and unread both have the same style we can do this instead*/
+
+.read,
+.unread{
+    color: white;
+    background-color: black;
+}
+ /* you can refer to two different classes at once */
+.subsection#preview{
+    color: red;
+}
+
+/* you cannot combine more than one tyoe selector */
+.subsection.header{
+    color: blue
+}
+
+.changecolour{
+    color: rgb(100,0,127)
+    /* can be in hex, rgb, or hsl */
+    /* we can also change the opacity of these colors by adding an alpha value */
+}
+
+/* a note on the typography basics */
+/* font-size: sets the size of the font */
+/* font-family: sets the font element */
+/* font-weight: boldness */
+/* text align: <position> */
+
+img{
+    height: auto;
+    width: 600px;
+}
+/* we can change the size of an image */
