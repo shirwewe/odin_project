@@ -1,0 +1,37 @@
+Block and Inline
+    Overview:
+        - Normal Flow
+        - block and inline elements
+        - what default each element has
+        - divs and spans
+    Block vs. Inline
+        - block elements show up stacked atop each other
+        - while inline elements do not start on a new line. They appear in line with whatever elements they are placed beside.
+        - the middle ground: inline-block
+            - they behave like inline elements, but with block-style padding and margin
+    Divs and spans
+        - Div is a block-level element by default
+        - used as a container and divides the page iunto different blocks 
+        - Span is an inline-level element by default
+        - Used to group text content and inline HTML elements 
+
+Introduction to Flexbox
+    - Flexbox is a way to arrange items into rows or columns
+    - Flex containers and flex items
+        - a flex container is any element that has display: flex on items
+        - A flex item is any element that lives directly inside of a flex container
+        - An element can be a flex container and a flex item
+    - flex
+        - flex-grow
+            - expects a single number as its value
+        - flex-shrink
+            - shrinks the flex item
+        - flex-basis
+            - sets the base line for the shrink and grow
+        - flex-auto means
+            - flex-grow: 1
+            - flew-shrink: 1
+            - flex-basis: auto
+
+Axes
+    - row: horizontal direction of the flex container
