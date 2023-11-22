@@ -3,9 +3,6 @@ you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
@@ -16,7 +13,8 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .profile-image {
@@ -34,10 +32,6 @@ body {
   font-style: italic;
 }
 
-.links {
-    display: flex;
-}
-
 button {
   border: none;
   border-radius: 8px;
@@ -50,8 +44,20 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+header.left, header.right{
+  display: flex;
+  
+  gap: 16px;
+
 }
