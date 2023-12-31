@@ -11,4 +11,8 @@
     - CSS Foundations
     - Flexbox
     - JavaScript Basics
+
+*to be continued*
+
+xoxo <3 syl
     
