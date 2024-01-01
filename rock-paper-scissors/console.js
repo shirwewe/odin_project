@@ -87,6 +87,7 @@ function game(){
     for (let i = 0; i < 5; i++){
         const playerSelection = prompt("Please input one of: 'Rock', 'Paper', 'Scissors'");
         const computerSelection = getComputerChoice();
+        console.log("You played: " + playerSelection +  "\nThe bot played: " + computerSelection )
         console.log(playRound(playerSelection,computerSelection));
         console.log(scorekeeper());
     }
