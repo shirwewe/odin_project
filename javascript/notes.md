@@ -55,3 +55,14 @@ an error is a type objecet built into the JS language, consisting of a name/type
 - wanings are not errors
 - they give warnings for potential errors
 
+#### A Note on Clean Code
+
+- camelCase
+    - is the naming convention that allowed writing multiple words together without spaces of punctuation
+- a good name is descriptive
+- use a consistent vocabulary
+- use names that are immediately understandable
+- use **git log** to track changes instead of putting uneccesary comments
+- comments should tell why the code is there
+
+
